@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!-- saved from url=(0057)https://html5book.ru/examples/buttons-effects/index2.html -->
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Красивые эффекты для кнопок на сайте</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<meta name="description" content="Разметка и стили для создания красивых кнопок для сайта. Коллекция современных эффектов.">
+<meta name="author" content="HTML5BOOK">
+<link rel="shortcut icon" href="https://html5book.ru/favicon.ico">
+<link rel="stylesheet" type="text/css" href="./Красивые эффекты для кнопок на сайте_files/single.css">
+<style>
+body {
+  background: radial-gradient(#E2DBC6 1px, transparent 1px);
+  background-size: 6px 6px;
+}
+.button-wrapper {
+  display: table;
+  margin: 50px auto;
+  text-align: center;
+}
+.transform-button {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 30px;
+  margin-right: 20px;
+  border: 1px solid #68E5F7;
+  background: transparent;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  perspective: 500px;
+  background: white;
+  transition: .3s;
+}
+.transform-button:last-of-type {margin-right: 0;}
+.transform-button span {    
+  position: relative;
+  z-index: 2;
+}
+.transform-button:before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #68E5F7;
+  transform-origin: left;
+  transition: .5s;
+}
+.transform-button:hover {
+  color: #68E5F7;
+  border-color: #68E5F7;
+ }
+.transform-button:hover:before {transform: rotateY(92deg);}
+@media(max-width:680px){.transform-button{display:block;margin-right:0;margin-bottom:20px;}}
+</style>
+<!-- счетчик GoogleAnalytics -->
+<script type="text/javascript" async="" src="./Красивые эффекты для кнопок на сайте_files/watch.js.Без названия"></script><script async="" src="./Красивые эффекты для кнопок на сайте_files/analytics.js.Без названия"></script><script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-49017436-1', 'auto');
+		ga('send', 'pageview');
+</script><!-- не копируйте этот код -->
+</head>
+<body>
+<div class="top"><a href="https://html5book.ru/krasivye-knopki-dlya-sayta-chast-2">Назад к уроку</a></div>
+<div class="container">
+<header>
+<h1>Идеи для оформления <b>кнопок для сайта</b></h1>
+<p>Открывающиеся кнопки</p>
+<nav>
+
+</nav>
+</header>
+<div class="button-wrapper">
+<a href="https://html5book.ru/examples/buttons-effects/index2.html" class="transform-button"><span>Войти на сайт</span></a>
+<a href="https://html5book.ru/examples/buttons-effects/index2.html" class="transform-button"><span>Войти на сайт</span></a>
+<a href="https://html5book.ru/examples/buttons-effects/index2.html" class="transform-button"><span>Войти на сайт</span></a>
+</div>
+</div>
+<!-- Yandex.Metrika informer -->
+<a href="https://metrika.yandex.ru/stat/?id=23928760&amp;from=informer" target="_blank" rel="nofollow"><img src="https://bs.yandex.ru/informer/23928760/3_0_FFFFFFFF_EFEFEFFF_0_pageviews" style="width:88px; height:31px; border:0; position:absolute; left:-9999px;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:23928760,lang:&#39;ru&#39;});return false}catch(e){}"></a>
+<!-- /Yandex.Metrika informer -->
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter23928760 = new Ya.Metrika({id:23928760,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/23928760" style="position:absolute; left:-9999px; bottom:0;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+</body></html>

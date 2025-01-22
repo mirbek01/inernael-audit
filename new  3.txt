@@ -1,0 +1,104 @@
+<?php
+ session_start ();
+if (!isset($_SESSION['auth1']))
+{
+
+exit ("go to <a href='https://zaiaviteli-basrmir.nas.gov.kg/emc/in.php'>login page</a>");
+}
+echo "<a href='https://zaiaviteli-basrmir.nas.gov.kg/emc/adminpanel.php?exit=1'> EXIT </a><br>";
+if (isset($_GET['exit']) ==1)
+
+{
+
+unset ($_SESSION['auth1']);
+session_destroy();
+ exit();
+}
+
+?>
+
+____________________________________________________-
+<?php
+ session_start ();
+if (!isset($_SESSION['auth2']))
+{
+
+exit ("go to <a href='https://zaiaviteli-basrmir.nas.gov.kg/manager/in.php'>login page</a>");
+}
+echo "<a href='https://zaiaviteli-basrmir.nas.gov.kg/manager/adminpanel.php?exit=1'> EXIT </a><br>";
+if (isset($_GET['exit']) ==1)
+
+{
+
+unset ($_SESSION['auth2']);
+session_destroy();
+ exit();
+}
+
+?>
+___________________________________________________________-
+
+
+<?php
+ session_start ();
+if (!isset($_SESSION['auth3']))
+{
+
+exit ("go to <a href='https://zaiaviteli-basrmir.nas.gov.kg/ol/in.php'>login page</a>");
+}
+echo "<a href='https://zaiaviteli-basrmir.nas.gov.kg/ol/adminpanel.php?exit=1'> EXIT </a><br>";
+if (isset($_GET['exit']) ==1)
+
+{
+
+unset ($_SESSION['auth3']);
+session_destroy();
+ exit();
+}
+
+?>
+____________________________________________
+
+
+<?php
+ session_start ();
+if (!isset($_SESSION['auth4']))
+{
+
+exit ("go to <a href='https://zaiaviteli-basrmir.nas.gov.kg/uores/in.php'>login page</a>");
+}
+echo "<a href='https://zaiaviteli-basrmir.nas.gov.kg/uores/adminpanel.php?exit=1'> EXIT </a><br>";
+if (isset($_GET['exit']) ==1)
+
+{
+
+unset ($_SESSION['auth4']);
+session_destroy();
+ exit();
+}
+
+?>
+_______________________________________________________________
+
+<?php
+ session_start ();
+if (!isset($_SESSION['auth5']))
+{
+
+exit ("go to <a href='https://zaiaviteli-basrmir.nas.gov.kg/urm/in.php'>login page</a>");
+}
+echo "<a href='https://zaiaviteli-basrmir.nas.gov.kg/urm/adminpanel.php?exit=1'> EXIT </a><br>";
+if (isset($_GET['exit']) ==1)
+
+{
+
+unset ($_SESSION['auth5']);
+session_destroy();
+ exit();
+}
+
+?>
+___________________________________________________________________________-
+
+
+
